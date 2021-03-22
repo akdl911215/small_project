@@ -453,3 +453,2641 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-20 16:00:40.821
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YAhwkkZm => OK
+!SESSION 2021-03-20 16:06:58.351 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-03-20 16:07:06.902
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-20 16:07:06.902
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6ab826bb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@219db855,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-20 16:07:11.691
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-20 16:07:11.697
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4834e816[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-20 16:07:11.702
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-20 16:07:11.730
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-20 16:07:14.462
+!MESSAGE Boot LS startup time from start to initialized: 2749ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-20 16:07:14.557
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.hBqFKLPXisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-20 16:07:14.569
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-20 16:07:14.580
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-20 16:07:14.589
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-20 16:07:14.598
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-20 16:07:14.607
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.hBqFKLPX => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-20 16:07:14.622
+!MESSAGE classpath=120 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-20 16:07:14.636
+!MESSAGE buffering callback sts4.classpath.hBqFKLPX demo false 120
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-20 16:07:14.645
+!MESSAGE executing callback sts4.classpath.hBqFKLPX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-20 16:07:14.686
+!MESSAGE executing callback sts4.classpath.hBqFKLPX SUCCESS [done]
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-20 16:07:14.929
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\LEE Jung Hyun'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 16:12:26.957
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 16:12:26.963
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 16:12:26.967
+!MESSAGE [Info]	Angular language server process ID: 13704
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 16:12:26.973
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 16:13:30.044
+!MESSAGE [Info]	Angular language server process ID: 13100
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 16:13:30.051
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 16:13:30.058
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 16:13:30.064
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.jface 2 0 2021-03-20 16:14:03.057
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-20 16:14:03.058
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@24546c9e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@664a3770,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:14:30.664
+!MESSAGE warning fullcalendar-reactwrapper > react > fbjs > core-js@1.2.7: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:14:32.217
+!MESSAGE warning mdbreact > popper.js@1.16.1: You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:14:32.227
+!MESSAGE warning mdbreact > @material-ui/core > popper.js@1.16.1: You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:14:32.513
+!MESSAGE warning mdbreact > react-popper > popper.js@1.16.1: You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:14:32.881
+!MESSAGE warning mdbreact > material-ui-pickers@2.2.4: You can now upgrade to @material-ui/pickers. Documentation for v2 can be found at https://material-ui-pickers-v2.dmtr-kovalenko.now.sh/
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:14:45.546
+!MESSAGE warning html-webpack-plugin@3.2.0: 3.x is no longer supported
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:15:02.346
+!MESSAGE warning " > @testing-library/user-event@12.8.3" has unmet peer dependency "@testing-library/dom@>=7.21.4".
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:15:02.351
+!MESSAGE warning " > style-loader@1.3.0" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:15:02.356
+!MESSAGE warning "react-scripts > @typescript-eslint/eslint-plugin > tsutils@3.20.0" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:15:02.362
+!MESSAGE warning "mdbreact > sass-loader@8.0.2" has unmet peer dependency "webpack@^4.36.0 || ^5.0.0".
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:15:02.367
+!MESSAGE warning " > react-datepicker@2.16.0" has incorrect peer dependency "react@^16.9.0".
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:15:02.373
+!MESSAGE warning " > react-datepicker@2.16.0" has incorrect peer dependency "react-dom@^16.9.0".
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:15:02.380
+!MESSAGE warning "react-metismenu > react-redux@5.1.2" has incorrect peer dependency "react@^0.14.0 || ^15.0.0-0 || ^16.0.0-0".
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:15:02.387
+!MESSAGE warning " > react-metismenu-router-link@2.1.0" has unmet peer dependency "prop-types@^15.6.0".
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:15:02.392
+!MESSAGE warning " > react-metismenu-router-link@2.1.0" has incorrect peer dependency "react@^16.0.0".
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:15:02.397
+!MESSAGE warning " > react-metismenu-router-link@2.1.0" has incorrect peer dependency "react-dom@^16.0.0".
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:15:02.403
+!MESSAGE warning " > react-metismenu-router-link@2.1.0" has incorrect peer dependency "react-router-dom@^4.2.2".
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:15:02.408
+!MESSAGE warning " > react-script-tag@1.1.2" has incorrect peer dependency "react@^16.0.0".
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:15:02.414
+!MESSAGE warning " > sweetalert2-react@0.8.3" has incorrect peer dependency "react@^16.0.0".
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:15:02.421
+!MESSAGE warning " > sweetalert2-react@0.8.3" has incorrect peer dependency "react-dom@^16.0.0".
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:15:02.426
+!MESSAGE warning " > css-loader@3.6.0" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-20 16:15:02.431
+!MESSAGE warning " > html-webpack-plugin@3.2.0" has unmet peer dependency "webpack@^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0".
+
+!ENTRY org.eclipse.ui 2 2 2021-03-20 21:22:36.738
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-03-20 21:22:41.379
+!MESSAGE Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:11.047
+!MESSAGE [Info]	Angular language server process ID: 22260
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:11.054
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:11.060
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:11.067
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:11.072
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:11.078
+!MESSAGE [Info]	Angular language server process ID: 14864
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:11.083
+!MESSAGE [Info]	Angular language server process ID: 15448
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:11.088
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:11.092
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:11.097
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:11.104
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:11.109
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:11.575
+!MESSAGE [Info]	Angular language server process ID: 11536
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:11.584
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:11.592
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:11.601
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:11.899
+!MESSAGE [Info]	Angular language server process ID: 20416
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:11.905
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:11.913
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:11.918
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:12.187
+!MESSAGE [Info]	Angular language server process ID: 17852
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:12.193
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:12.201
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:12.208
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:12.589
+!MESSAGE [Info]	Angular language server process ID: 21612
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:12.595
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:12.602
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:12.610
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:12.782
+!MESSAGE [Info]	Angular language server process ID: 14844
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:12.789
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:12.795
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:12.800
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:13.161
+!MESSAGE [Info]	Angular language server process ID: 22040
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:13.169
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:13.176
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:13.183
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:13.412
+!MESSAGE [Info]	Angular language server process ID: 22048
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:13.420
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:13.428
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:13.435
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:13.708
+!MESSAGE [Info]	Angular language server process ID: 12172
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:13.716
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:13.723
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:13.731
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:13.922
+!MESSAGE [Info]	Angular language server process ID: 8784
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:13.928
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:13.935
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:13.943
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:14.290
+!MESSAGE [Info]	Angular language server process ID: 13828
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:14.298
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:14.306
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:14.313
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:14.558
+!MESSAGE [Info]	Angular language server process ID: 14460
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:14.565
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:14.572
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:14.579
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:14.850
+!MESSAGE [Info]	Angular language server process ID: 22492
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:14.857
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:14.865
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:14.872
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:15.137
+!MESSAGE [Info]	Angular language server process ID: 7368
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:15.143
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:15.151
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:15.157
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:15.393
+!MESSAGE [Info]	Angular language server process ID: 21580
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:15.401
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:15.408
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:15.414
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:15.673
+!MESSAGE [Info]	Angular language server process ID: 18476
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:15.680
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:15.687
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:15.693
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:15.955
+!MESSAGE [Info]	Angular language server process ID: 3036
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:15.963
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:15.970
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:15.976
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:16.231
+!MESSAGE [Info]	Angular language server process ID: 14864
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:16.236
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:16.243
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:16.250
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:16.459
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:16.467
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:16.474
+!MESSAGE [Info]	Angular language server process ID: 15764
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:16.479
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:16.718
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:16.725
+!MESSAGE [Info]	Angular language server process ID: 2660
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:16.733
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:16.741
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:17.013
+!MESSAGE [Info]	Angular language server process ID: 22196
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:17.021
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:17.029
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:17.036
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:17.329
+!MESSAGE [Info]	Angular language server process ID: 22104
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:17.335
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:17.342
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:17.349
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:17.552
+!MESSAGE [Info]	Angular language server process ID: 17512
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:17.560
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:17.569
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:17.577
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:17.811
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:17.816
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:17.824
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:17.832
+!MESSAGE [Info]	Angular language server process ID: 18284
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:18.078
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:18.086
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:18.093
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:18.100
+!MESSAGE [Info]	Angular language server process ID: 17768
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:18.432
+!MESSAGE [Info]	Angular language server process ID: 7000
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:18.438
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:18.446
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:18.453
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:18.610
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:18.618
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:18.625
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:18.632
+!MESSAGE [Info]	Angular language server process ID: 4696
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:18.981
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:18.989
+!MESSAGE [Info]	Angular language server process ID: 12764
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:18.996
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:19.003
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:19.186
+!MESSAGE [Info]	Angular language server process ID: 8744
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:19.194
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:19.202
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:19.209
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:19.508
+!MESSAGE [Info]	Angular language server process ID: 6432
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:19.514
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:19.521
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:19.527
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:19.756
+!MESSAGE [Info]	Angular language server process ID: 11532
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:19.763
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:19.771
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:19.778
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:20.062
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:20.070
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:20.078
+!MESSAGE [Info]	Angular language server process ID: 9776
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:20.085
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:20.283
+!MESSAGE [Info]	Angular language server process ID: 22320
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:20.290
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:20.298
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:20.305
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:20.515
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:20.522
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:20.530
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:20.537
+!MESSAGE [Info]	Angular language server process ID: 9192
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:20.825
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:20.831
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:20.839
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:20.847
+!MESSAGE [Info]	Angular language server process ID: 15376
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:21.042
+!MESSAGE [Info]	Angular language server process ID: 15148
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:21.050
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:21.057
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:21.064
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:21.351
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:21.359
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:21.367
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:21.374
+!MESSAGE [Info]	Angular language server process ID: 840
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:21.623
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:21.629
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:21.636
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:21.643
+!MESSAGE [Info]	Angular language server process ID: 17552
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:21.853
+!MESSAGE [Info]	Angular language server process ID: 11808
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:21.861
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:21.868
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:21.875
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:22.104
+!MESSAGE [Info]	Angular language server process ID: 22272
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:22.112
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:22.119
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:22.125
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:22.371
+!MESSAGE [Info]	Angular language server process ID: 22472
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:22.378
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:22.385
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:22.393
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:22.672
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:22.680
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:22.689
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:22.696
+!MESSAGE [Info]	Angular language server process ID: 11484
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:22.877
+!MESSAGE [Info]	Angular language server process ID: 21232
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:22.884
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:22.892
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:22.899
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:23.123
+!MESSAGE [Info]	Angular language server process ID: 9360
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:23.130
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:23.138
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:23.145
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:23.427
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:23.434
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:23.441
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:23.448
+!MESSAGE [Info]	Angular language server process ID: 9472
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:23.715
+!MESSAGE [Info]	Angular language server process ID: 12332
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:23.722
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:23.729
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:23.736
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:23.991
+!MESSAGE [Info]	Angular language server process ID: 1032
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:23.998
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:24.006
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:24.013
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:24.242
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:24.249
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:24.255
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:24.261
+!MESSAGE [Info]	Angular language server process ID: 13192
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:24.497
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:24.505
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:24.512
+!MESSAGE [Info]	Angular language server process ID: 20508
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:24.520
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:24.743
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:24.751
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:24.758
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:24.765
+!MESSAGE [Info]	Angular language server process ID: 7368
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:24.984
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:24.991
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:24.999
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:25.005
+!MESSAGE [Info]	Angular language server process ID: 17560
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:25.286
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:25.294
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:25.300
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:25.306
+!MESSAGE [Info]	Angular language server process ID: 19184
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:25.567
+!MESSAGE [Info]	Angular language server process ID: 20084
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:25.574
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:25.582
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:25.587
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:25.758
+!MESSAGE [Info]	Angular language server process ID: 17132
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:25.766
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:25.773
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:25.779
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:26.048
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:26.053
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:26.059
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:25:26.065
+!MESSAGE [Info]	Angular language server process ID: 13892
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:51:56.105
+!MESSAGE [Info]	ESLint server running in node v12.16.1
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-20 21:51:56.411
+!MESSAGE [Info]	ESLint library loaded from: C:\Users\LEE Jung Hyun\project\smallProject\demo\fe\node_modules\eslint\lib\api.js
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-20 23:29:03.981
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hBqFKLPX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-20 23:29:03.988
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.hBqFKLPX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-20 23:29:03.995
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-20 23:29:04.000
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hBqFKLPX => OK
+!SESSION 2021-03-21 09:27:16.268 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-03-21 09:27:26.418
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-21 09:27:26.418
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@638d624a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7eb774c3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:27:31.984
+!MESSAGE [Info]	ESLint server running in node v12.16.1
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-21 09:27:35.078
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\LEE Jung Hyun'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:27:39.133
+!MESSAGE [Info]	ESLint library loaded from: C:\Users\LEE Jung Hyun\project\smallProject\demo\fe\node_modules\eslint\lib\api.js
+
+!ENTRY org.eclipse.ui 2 2 2021-03-21 09:28:04.283
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jface 2 0 2021-03-21 09:30:03.445
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-21 09:30:03.445
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@72a14347,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@656ed510,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-03-21 09:33:08.607
+!MESSAGE 
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.getLineInformation(TreeLineTracker.java:1163)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineInformation(AbstractLineTracker.java:137)
+	at org.eclipse.jface.text.AbstractDocument.getLineInformation(AbstractDocument.java:882)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineInformation(SynchronizableDocument.java:290)
+	at org.eclipse.lsp4e.LSPEclipseUtils.toOffset(LSPEclipseUtils.java:167)
+	at org.eclipse.lsp4e.outline.SymbolsLabelProvider.getMaxSeverity(SymbolsLabelProvider.java:178)
+	at org.eclipse.lsp4e.outline.SymbolsLabelProvider.getImage(SymbolsLabelProvider.java:155)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findImage(NavigatorContentServiceLabelProvider.java:204)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getColumnImage(NavigatorContentServiceLabelProvider.java:112)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getImage(NavigatorContentServiceLabelProvider.java:104)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getImage(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:198)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:171)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:124)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:134)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:959)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1037)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:853)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2802)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1960)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:677)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1936)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1893)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:532)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1400)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:363)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1361)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:352)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:495)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1420)
+	at org.eclipse.lsp4e.outline.LSSymbolsContentProvider.lambda$1(LSSymbolsContentProvider.java:262)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-03-21 09:33:08.617
+!MESSAGE 
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.getLineInformation(TreeLineTracker.java:1163)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineInformation(AbstractLineTracker.java:137)
+	at org.eclipse.jface.text.AbstractDocument.getLineInformation(AbstractDocument.java:882)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineInformation(SynchronizableDocument.java:290)
+	at org.eclipse.lsp4e.LSPEclipseUtils.toOffset(LSPEclipseUtils.java:167)
+	at org.eclipse.lsp4e.outline.SymbolsLabelProvider.getMaxSeverity(SymbolsLabelProvider.java:178)
+	at org.eclipse.lsp4e.outline.SymbolsLabelProvider.getImage(SymbolsLabelProvider.java:155)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findImage(NavigatorContentServiceLabelProvider.java:204)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getColumnImage(NavigatorContentServiceLabelProvider.java:112)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getImage(NavigatorContentServiceLabelProvider.java:104)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getImage(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:198)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:171)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:124)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:134)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:959)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1037)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:853)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2802)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1960)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:677)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1936)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1893)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:532)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1400)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:363)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1361)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:352)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:495)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1420)
+	at org.eclipse.lsp4e.outline.LSSymbolsContentProvider.lambda$1(LSSymbolsContentProvider.java:262)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-03-21 09:33:09.318
+!MESSAGE 
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.getLineInformation(TreeLineTracker.java:1163)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineInformation(AbstractLineTracker.java:137)
+	at org.eclipse.jface.text.AbstractDocument.getLineInformation(AbstractDocument.java:882)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineInformation(SynchronizableDocument.java:290)
+	at org.eclipse.lsp4e.LSPEclipseUtils.toOffset(LSPEclipseUtils.java:167)
+	at org.eclipse.lsp4e.outline.SymbolsLabelProvider.getMaxSeverity(SymbolsLabelProvider.java:178)
+	at org.eclipse.lsp4e.outline.SymbolsLabelProvider.getImage(SymbolsLabelProvider.java:155)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findImage(NavigatorContentServiceLabelProvider.java:204)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getColumnImage(NavigatorContentServiceLabelProvider.java:112)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getImage(NavigatorContentServiceLabelProvider.java:104)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getImage(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:198)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:171)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:124)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:134)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:959)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1037)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.StructuredViewer.internalUpdate(StructuredViewer.java:2094)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:2035)
+	at org.eclipse.jface.viewers.ColumnViewer.update(ColumnViewer.java:545)
+	at org.eclipse.ui.navigator.CommonViewer.update(CommonViewer.java:515)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:1979)
+	at org.eclipse.jface.viewers.StructuredViewer.handleLabelProviderChanged(StructuredViewer.java:1158)
+	at org.eclipse.ui.navigator.CommonViewer.handleLabelProviderChanged(CommonViewer.java:240)
+	at org.eclipse.jface.viewers.ContentViewer$1.labelProviderChanged(ContentViewer.java:95)
+	at org.eclipse.jface.viewers.BaseLabelProvider$1.run(BaseLabelProvider.java:75)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.BaseLabelProvider.fireLabelProviderChanged(BaseLabelProvider.java:72)
+	at org.eclipse.ui.internal.decorators.DecoratorManager$1.run(DecoratorManager.java:349)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.fireListener(DecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$3.runInUIThread(DecorationScheduler.java:525)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-03-21 09:33:09.338
+!MESSAGE 
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.getLineInformation(TreeLineTracker.java:1163)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineInformation(AbstractLineTracker.java:137)
+	at org.eclipse.jface.text.AbstractDocument.getLineInformation(AbstractDocument.java:882)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineInformation(SynchronizableDocument.java:290)
+	at org.eclipse.lsp4e.LSPEclipseUtils.toOffset(LSPEclipseUtils.java:167)
+	at org.eclipse.lsp4e.outline.SymbolsLabelProvider.getMaxSeverity(SymbolsLabelProvider.java:178)
+	at org.eclipse.lsp4e.outline.SymbolsLabelProvider.getImage(SymbolsLabelProvider.java:155)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findImage(NavigatorContentServiceLabelProvider.java:204)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getColumnImage(NavigatorContentServiceLabelProvider.java:112)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getImage(NavigatorContentServiceLabelProvider.java:104)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getImage(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:198)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:171)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:124)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:134)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:959)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1037)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.StructuredViewer.internalUpdate(StructuredViewer.java:2094)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:2035)
+	at org.eclipse.jface.viewers.ColumnViewer.update(ColumnViewer.java:545)
+	at org.eclipse.ui.navigator.CommonViewer.update(CommonViewer.java:515)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:1979)
+	at org.eclipse.jface.viewers.StructuredViewer.handleLabelProviderChanged(StructuredViewer.java:1158)
+	at org.eclipse.ui.navigator.CommonViewer.handleLabelProviderChanged(CommonViewer.java:240)
+	at org.eclipse.jface.viewers.ContentViewer$1.labelProviderChanged(ContentViewer.java:95)
+	at org.eclipse.jface.viewers.BaseLabelProvider$1.run(BaseLabelProvider.java:75)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.BaseLabelProvider.fireLabelProviderChanged(BaseLabelProvider.java:72)
+	at org.eclipse.ui.internal.decorators.DecoratorManager$1.run(DecoratorManager.java:349)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.fireListener(DecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$3.runInUIThread(DecorationScheduler.java:525)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-03-21 09:33:09.349
+!MESSAGE 
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.getLineInformation(TreeLineTracker.java:1163)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineInformation(AbstractLineTracker.java:137)
+	at org.eclipse.jface.text.AbstractDocument.getLineInformation(AbstractDocument.java:882)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineInformation(SynchronizableDocument.java:290)
+	at org.eclipse.lsp4e.LSPEclipseUtils.toOffset(LSPEclipseUtils.java:167)
+	at org.eclipse.lsp4e.outline.SymbolsLabelProvider.getMaxSeverity(SymbolsLabelProvider.java:178)
+	at org.eclipse.lsp4e.outline.SymbolsLabelProvider.getImage(SymbolsLabelProvider.java:155)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findImage(NavigatorContentServiceLabelProvider.java:204)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getColumnImage(NavigatorContentServiceLabelProvider.java:112)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getImage(NavigatorContentServiceLabelProvider.java:104)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getImage(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:198)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:171)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:124)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:134)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:959)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1037)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2780)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1960)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:677)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1936)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1893)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:532)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1400)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:363)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1361)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:352)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1445)
+	at org.eclipse.lsp4e.outline.CNFOutlinePage.labelProviderChanged(CNFOutlinePage.java:300)
+	at org.eclipse.jface.viewers.BaseLabelProvider$1.run(BaseLabelProvider.java:75)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.BaseLabelProvider.fireLabelProviderChanged(BaseLabelProvider.java:72)
+	at org.eclipse.ui.internal.decorators.DecoratorManager$1.run(DecoratorManager.java:349)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.fireListener(DecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$3.runInUIThread(DecorationScheduler.java:525)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-03-21 09:33:09.357
+!MESSAGE 
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.getLineInformation(TreeLineTracker.java:1163)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineInformation(AbstractLineTracker.java:137)
+	at org.eclipse.jface.text.AbstractDocument.getLineInformation(AbstractDocument.java:882)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineInformation(SynchronizableDocument.java:290)
+	at org.eclipse.lsp4e.LSPEclipseUtils.toOffset(LSPEclipseUtils.java:167)
+	at org.eclipse.lsp4e.outline.SymbolsLabelProvider.getMaxSeverity(SymbolsLabelProvider.java:178)
+	at org.eclipse.lsp4e.outline.SymbolsLabelProvider.getImage(SymbolsLabelProvider.java:155)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findImage(NavigatorContentServiceLabelProvider.java:204)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getColumnImage(NavigatorContentServiceLabelProvider.java:112)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getImage(NavigatorContentServiceLabelProvider.java:104)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getImage(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:198)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:171)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:124)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:134)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:959)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1037)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2780)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1960)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:677)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1936)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1893)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:532)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1400)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:363)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1361)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:352)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1445)
+	at org.eclipse.lsp4e.outline.CNFOutlinePage.labelProviderChanged(CNFOutlinePage.java:300)
+	at org.eclipse.jface.viewers.BaseLabelProvider$1.run(BaseLabelProvider.java:75)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.BaseLabelProvider.fireLabelProviderChanged(BaseLabelProvider.java:72)
+	at org.eclipse.ui.internal.decorators.DecoratorManager$1.run(DecoratorManager.java:349)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.fireListener(DecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$3.runInUIThread(DecorationScheduler.java:525)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-03-21 09:33:15.325
+!MESSAGE 
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.getLineInformation(TreeLineTracker.java:1163)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineInformation(AbstractLineTracker.java:137)
+	at org.eclipse.jface.text.AbstractDocument.getLineInformation(AbstractDocument.java:882)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineInformation(SynchronizableDocument.java:290)
+	at org.eclipse.lsp4e.LSPEclipseUtils.toOffset(LSPEclipseUtils.java:167)
+	at org.eclipse.lsp4e.outline.SymbolsLabelProvider.getMaxSeverity(SymbolsLabelProvider.java:178)
+	at org.eclipse.lsp4e.outline.SymbolsLabelProvider.getImage(SymbolsLabelProvider.java:155)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findImage(NavigatorContentServiceLabelProvider.java:204)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getColumnImage(NavigatorContentServiceLabelProvider.java:112)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getImage(NavigatorContentServiceLabelProvider.java:104)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getImage(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:198)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:171)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:124)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:134)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:959)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1037)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.StructuredViewer.internalUpdate(StructuredViewer.java:2094)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:2035)
+	at org.eclipse.jface.viewers.ColumnViewer.update(ColumnViewer.java:545)
+	at org.eclipse.ui.navigator.CommonViewer.update(CommonViewer.java:515)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:1979)
+	at org.eclipse.jface.viewers.StructuredViewer.handleLabelProviderChanged(StructuredViewer.java:1158)
+	at org.eclipse.ui.navigator.CommonViewer.handleLabelProviderChanged(CommonViewer.java:240)
+	at org.eclipse.jface.viewers.ContentViewer$1.labelProviderChanged(ContentViewer.java:95)
+	at org.eclipse.jface.viewers.BaseLabelProvider$1.run(BaseLabelProvider.java:75)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.BaseLabelProvider.fireLabelProviderChanged(BaseLabelProvider.java:72)
+	at org.eclipse.ui.internal.decorators.DecoratorManager$1.run(DecoratorManager.java:349)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.fireListener(DecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$3.runInUIThread(DecorationScheduler.java:525)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-03-21 09:33:15.337
+!MESSAGE 
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.getLineInformation(TreeLineTracker.java:1163)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineInformation(AbstractLineTracker.java:137)
+	at org.eclipse.jface.text.AbstractDocument.getLineInformation(AbstractDocument.java:882)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineInformation(SynchronizableDocument.java:290)
+	at org.eclipse.lsp4e.LSPEclipseUtils.toOffset(LSPEclipseUtils.java:167)
+	at org.eclipse.lsp4e.outline.SymbolsLabelProvider.getMaxSeverity(SymbolsLabelProvider.java:178)
+	at org.eclipse.lsp4e.outline.SymbolsLabelProvider.getImage(SymbolsLabelProvider.java:155)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findImage(NavigatorContentServiceLabelProvider.java:204)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getColumnImage(NavigatorContentServiceLabelProvider.java:112)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getImage(NavigatorContentServiceLabelProvider.java:104)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getImage(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:198)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:171)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:124)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:134)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:959)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1037)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.StructuredViewer.internalUpdate(StructuredViewer.java:2094)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:2035)
+	at org.eclipse.jface.viewers.ColumnViewer.update(ColumnViewer.java:545)
+	at org.eclipse.ui.navigator.CommonViewer.update(CommonViewer.java:515)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:1979)
+	at org.eclipse.jface.viewers.StructuredViewer.handleLabelProviderChanged(StructuredViewer.java:1158)
+	at org.eclipse.ui.navigator.CommonViewer.handleLabelProviderChanged(CommonViewer.java:240)
+	at org.eclipse.jface.viewers.ContentViewer$1.labelProviderChanged(ContentViewer.java:95)
+	at org.eclipse.jface.viewers.BaseLabelProvider$1.run(BaseLabelProvider.java:75)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.BaseLabelProvider.fireLabelProviderChanged(BaseLabelProvider.java:72)
+	at org.eclipse.ui.internal.decorators.DecoratorManager$1.run(DecoratorManager.java:349)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.fireListener(DecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$3.runInUIThread(DecorationScheduler.java:525)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-03-21 09:33:15.353
+!MESSAGE 
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.getLineInformation(TreeLineTracker.java:1163)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineInformation(AbstractLineTracker.java:137)
+	at org.eclipse.jface.text.AbstractDocument.getLineInformation(AbstractDocument.java:882)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineInformation(SynchronizableDocument.java:290)
+	at org.eclipse.lsp4e.LSPEclipseUtils.toOffset(LSPEclipseUtils.java:167)
+	at org.eclipse.lsp4e.outline.SymbolsLabelProvider.getMaxSeverity(SymbolsLabelProvider.java:178)
+	at org.eclipse.lsp4e.outline.SymbolsLabelProvider.getImage(SymbolsLabelProvider.java:155)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findImage(NavigatorContentServiceLabelProvider.java:204)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getColumnImage(NavigatorContentServiceLabelProvider.java:112)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getImage(NavigatorContentServiceLabelProvider.java:104)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getImage(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:198)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:171)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:124)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:134)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:959)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1037)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2780)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1960)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:677)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1936)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1893)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:532)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1400)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:363)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1361)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:352)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1445)
+	at org.eclipse.lsp4e.outline.CNFOutlinePage.labelProviderChanged(CNFOutlinePage.java:300)
+	at org.eclipse.jface.viewers.BaseLabelProvider$1.run(BaseLabelProvider.java:75)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.BaseLabelProvider.fireLabelProviderChanged(BaseLabelProvider.java:72)
+	at org.eclipse.ui.internal.decorators.DecoratorManager$1.run(DecoratorManager.java:349)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.fireListener(DecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$3.runInUIThread(DecorationScheduler.java:525)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-03-21 09:33:15.366
+!MESSAGE 
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.getLineInformation(TreeLineTracker.java:1163)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineInformation(AbstractLineTracker.java:137)
+	at org.eclipse.jface.text.AbstractDocument.getLineInformation(AbstractDocument.java:882)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineInformation(SynchronizableDocument.java:290)
+	at org.eclipse.lsp4e.LSPEclipseUtils.toOffset(LSPEclipseUtils.java:167)
+	at org.eclipse.lsp4e.outline.SymbolsLabelProvider.getMaxSeverity(SymbolsLabelProvider.java:178)
+	at org.eclipse.lsp4e.outline.SymbolsLabelProvider.getImage(SymbolsLabelProvider.java:155)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findImage(NavigatorContentServiceLabelProvider.java:204)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getColumnImage(NavigatorContentServiceLabelProvider.java:112)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getImage(NavigatorContentServiceLabelProvider.java:104)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getImage(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:198)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:171)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:124)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:134)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:959)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1037)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2780)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1960)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:677)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1936)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1893)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:532)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1400)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:363)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1361)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:352)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1445)
+	at org.eclipse.lsp4e.outline.CNFOutlinePage.labelProviderChanged(CNFOutlinePage.java:300)
+	at org.eclipse.jface.viewers.BaseLabelProvider$1.run(BaseLabelProvider.java:75)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.BaseLabelProvider.fireLabelProviderChanged(BaseLabelProvider.java:72)
+	at org.eclipse.ui.internal.decorators.DecoratorManager$1.run(DecoratorManager.java:349)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.fireListener(DecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$3.runInUIThread(DecorationScheduler.java:525)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-03-21 09:34:27.520
+!MESSAGE Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:34:36.906
+!MESSAGE [Info]	Angular language server process ID: 21484
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:34:36.911
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:34:36.918
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:34:36.923
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-21 09:35:49.321
+!MESSAGE error Command failed with exit code 1.
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:37:20.626
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:37:20.631
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:37:20.637
+!MESSAGE [Info]	Angular language server process ID: 9408
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:37:20.645
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:37:23.382
+!MESSAGE [Info]	Angular language server process ID: 16092
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:37:23.389
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:37:23.397
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:37:23.405
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:39:40.958
+!MESSAGE [Info]	Angular language server process ID: 21496
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:39:40.965
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:39:40.970
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:39:40.976
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:39:48.431
+!MESSAGE [Info]	Angular language server process ID: 2148
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:39:48.437
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:39:48.445
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:39:48.450
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-03-21 09:41:47.756
+!MESSAGE Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:44:01.248
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:44:01.256
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:44:01.264
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:44:01.271
+!MESSAGE [Info]	Angular language server process ID: 21268
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:44:02.106
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:44:02.114
+!MESSAGE [Info]	Angular language server process ID: 7652
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:44:02.121
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:44:02.129
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:44:02.347
+!MESSAGE [Info]	Angular language server process ID: 17800
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:44:02.355
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:44:02.362
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:44:02.368
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:49:59.609
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:49:59.615
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1b0a0fc9[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:49:59.632
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:49:59.772
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:50:03.912
+!MESSAGE Boot LS startup time from start to initialized: 4268ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:50:03.996
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.IyAPoNrWisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:50:04.003
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:50:04.011
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:50:04.019
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:50:04.026
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:50:04.034
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.IyAPoNrW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:50:04.043
+!MESSAGE classpath=120 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:50:04.053
+!MESSAGE buffering callback sts4.classpath.IyAPoNrW demo false 120
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:50:04.057
+!MESSAGE executing callback sts4.classpath.IyAPoNrW 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:50:04.082
+!MESSAGE executing callback sts4.classpath.IyAPoNrW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:52:37.664
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:52:37.678
+!MESSAGE classpath=119 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:52:37.693
+!MESSAGE buffering callback sts4.classpath.IyAPoNrW demo false 119
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:52:37.699
+!MESSAGE executing callback sts4.classpath.IyAPoNrW 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:52:37.742
+!MESSAGE executing callback sts4.classpath.IyAPoNrW SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-03-21 09:53:16.534
+!MESSAGE Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:55:08.441
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.IyAPoNrW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:55:08.447
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.IyAPoNrW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:55:08.453
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 09:55:08.460
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.IyAPoNrW => OK
+!SESSION 2021-03-21 09:55:14.817 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-03-21 09:55:20.001
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-21 09:55:20.001
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@515d615,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@488b46da,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-21 09:55:27.231
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\LEE Jung Hyun'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2021-03-21 09:55:30.863
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:57:37.212
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:57:37.220
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:57:37.228
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:57:37.236
+!MESSAGE [Info]	Angular language server process ID: 3540
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:57:44.494
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:57:44.502
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:57:44.510
+!MESSAGE [Info]	Angular language server process ID: 772
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:57:44.518
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:57:44.871
+!MESSAGE [Info]	Angular language server process ID: 8368
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:57:44.878
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:57:44.886
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:57:44.893
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:57:59.141
+!MESSAGE [Info]	Angular language server process ID: 18796
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:57:59.149
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:57:59.156
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:57:59.163
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:57:59.975
+!MESSAGE [Info]	Angular language server process ID: 5180
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:57:59.983
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:57:59.990
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:57:59.995
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-03-21 09:58:27.246
+!MESSAGE 
+!STACK 0
+java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2468)
+	at org.eclipse.lsp4e.LanguageServerWrapper.stop(LanguageServerWrapper.java:390)
+	at org.eclipse.lsp4e.LanguageServerWrapper.disconnect(LanguageServerWrapper.java:596)
+	at org.eclipse.lsp4e.LanguageServerWrapper$1.bufferDisposed(LanguageServerWrapper.java:131)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager$12.run(TextFileBufferManager.java:787)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.fireBufferDisposed(TextFileBufferManager.java:784)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.disconnect(TextFileBufferManager.java:206)
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.releaseModel(FileBufferModelManager.java:930)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.cleanupDiscardedModel(ModelManagerImpl.java:1914)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.discardModel(ModelManagerImpl.java:1895)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.releaseFromRead(ModelManagerImpl.java:1950)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.releaseFromRead(ModelManagerImpl.java:1798)
+	at org.eclipse.wst.sse.core.internal.model.AbstractStructuredModel.releaseFromRead(AbstractStructuredModel.java:1028)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.releaseFromRead(DOMModelImpl.java:890)
+	at org.eclipse.wst.html.core.internal.document.DOMStyleModelImpl.releaseFromRead(DOMStyleModelImpl.java:46)
+	at org.eclipse.wst.sse.core.internal.validate.ValidatorGroupListener.validationFinishing(ValidatorGroupListener.java:66)
+	at org.eclipse.wst.validation.internal.ValManager$3.run(ValManager.java:876)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.wst.validation.internal.ValManager.notifyGroupFinishing(ValManager.java:874)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:790)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
+	at org.eclipse.core.internal.resources.Resource.lambda$1(Resource.java:117)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:27.331
+!MESSAGE [Info]	Angular language server process ID: 19296
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:27.339
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:27.346
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:27.354
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:27.777
+!MESSAGE [Info]	Angular language server process ID: 10196
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:27.786
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:27.795
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:27.803
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:27.825
+!MESSAGE [Info]	Angular language server process ID: 9104
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:27.836
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:27.844
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:27.852
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:41.848
+!MESSAGE [Info]	Angular language server process ID: 23436
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:41.856
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:41.864
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:41.871
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:41.879
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:41.886
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:41.893
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:41.901
+!MESSAGE [Info]	Angular language server process ID: 15736
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:42.057
+!MESSAGE [Info]	Angular language server process ID: 18708
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:42.065
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:42.072
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:42.078
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:42.112
+!MESSAGE [Info]	Angular language server process ID: 23988
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:42.118
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:42.125
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 09:58:42.133
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:14.453
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:14.460
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:14.468
+!MESSAGE [Info]	Angular language server process ID: 23464
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:14.475
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:14.483
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:14.490
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:14.497
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:14.505
+!MESSAGE [Info]	Angular language server process ID: 12644
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:16.728
+!MESSAGE [Info]	Angular language server process ID: 18612
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:16.736
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:16.744
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:16.752
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:16.759
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:16.767
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:16.774
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:16.782
+!MESSAGE [Info]	Angular language server process ID: 18644
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:16.995
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:17.001
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:17.009
+!MESSAGE [Info]	Angular language server process ID: 15040
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:17.016
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:17.055
+!MESSAGE [Info]	Angular language server process ID: 16984
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:17.061
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:17.066
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:01:17.071
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-03-21 10:02:03.713
+!MESSAGE Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:35.375
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:35.383
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:35.390
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:35.397
+!MESSAGE [Info]	Angular language server process ID: 2656
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:35.406
+!MESSAGE [Info]	Angular language server process ID: 9988
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:35.413
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:35.420
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:35.428
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:37.405
+!MESSAGE [Info]	Angular language server process ID: 12112
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:37.413
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:37.421
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:37.429
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:37.436
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:37.443
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:37.451
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:37.458
+!MESSAGE [Info]	Angular language server process ID: 24240
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:37.617
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:37.625
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:37.633
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:37.639
+!MESSAGE [Info]	Angular language server process ID: 1808
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:37.655
+!MESSAGE [Info]	Angular language server process ID: 2804
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:37.662
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:37.668
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-03-21 10:06:37.673
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-03-21 10:07:20.353
+!MESSAGE Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:32:31.606
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:32:31.615
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1c6ab85[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:32:31.624
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:32:31.654
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:32:33.523
+!MESSAGE Boot LS startup time from start to initialized: 1887ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:32:33.578
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HdCAQzKiisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:32:33.585
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:32:33.591
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:32:33.598
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:32:33.605
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:32:33.612
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HdCAQzKi => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:32:33.629
+!MESSAGE classpath=120 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:32:33.639
+!MESSAGE buffering callback sts4.classpath.HdCAQzKi demo false 120
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:32:33.644
+!MESSAGE executing callback sts4.classpath.HdCAQzKi 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:32:33.669
+!MESSAGE executing callback sts4.classpath.HdCAQzKi SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:32:37.259
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HdCAQzKi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:32:37.265
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.HdCAQzKi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:32:37.270
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:32:37.275
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HdCAQzKi => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:34:01.771
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:34:01.776
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1c6ab85[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:34:01.782
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:34:03.410
+!MESSAGE Boot LS startup time from start to initialized: 1622ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:34:03.462
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.tSmJPqvUisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:34:03.468
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:34:03.475
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:34:03.482
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:34:03.489
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:34:03.497
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.tSmJPqvU => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:34:03.504
+!MESSAGE classpath=120 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:34:03.514
+!MESSAGE buffering callback sts4.classpath.tSmJPqvU demo false 120
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:34:03.520
+!MESSAGE executing callback sts4.classpath.tSmJPqvU 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 10:34:03.542
+!MESSAGE executing callback sts4.classpath.tSmJPqvU SUCCESS [done]
+
+!ENTRY org.eclipse.debug.ui 4 120 2021-03-21 10:34:15.935
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.FutureTask.awaitDone(FutureTask.java:418)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:203)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.runInUIThreadWithTimeout(SelectedResourceManager.java:262)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getFromUI(SelectedResourceManager.java:240)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getActiveWindow(SelectedResourceManager.java:231)
+	at org.eclipse.debug.ui.DebugUITools.getDebugContext(DebugUITools.java:247)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getFrame(JavaDebugHover.java:97)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:251)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.ui 4 0 2021-03-21 11:06:02.096
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.jdt.internal.corext.fix.LinkedProposalPositionGroupCore cannot be cast to class org.eclipse.jdt.internal.corext.fix.LinkedProposalPositionGroup (org.eclipse.jdt.internal.corext.fix.LinkedProposalPositionGroupCore is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3b8ce72; org.eclipse.jdt.internal.corext.fix.LinkedProposalPositionGroup is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @43e9a8a2)
+	at org.eclipse.jdt.internal.corext.fix.LinkedProposalModel$LinkedProposalPositionGroupIterator.next(LinkedProposalModel.java:47)
+	at org.eclipse.jdt.internal.corext.fix.LinkedProposalModel$LinkedProposalPositionGroupIterator.next(LinkedProposalModel.java:1)
+	at org.eclipse.jdt.internal.ui.viewsupport.LinkedProposalModelPresenter.enterLinkedMode(LinkedProposalModelPresenter.java:75)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.LinkedCorrectionProposal.performChange(LinkedCorrectionProposal.java:161)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.apply(CUCorrectionProposal.java:167)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.FixCorrectionProposal.apply(FixCorrectionProposal.java:181)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.apply(AbstractAnnotationHover.java:556)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.access$1(AbstractAnnotationHover.java:538)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl$4.widgetSelected(AbstractAnnotationHover.java:532)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1078)
+	at org.eclipse.swt.widgets.Link.wmNotifyChild(Link.java:713)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5816)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1954)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5384)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4818)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Link.callWindowProc(Link.java:161)
+	at org.eclipse.swt.widgets.Widget.wmLButtonUp(Widget.java:1964)
+	at org.eclipse.swt.widgets.Control.WM_LBUTTONUP(Control.java:5197)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4799)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 12:10:23.955
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.tSmJPqvU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 12:10:23.961
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.tSmJPqvU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 12:10:23.967
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 12:10:23.972
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.tSmJPqvU => OK
+!SESSION 2021-03-21 17:47:46.256 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-03-21 17:47:56.432
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-21 17:47:56.432
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4902c584,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7698a3d9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 17:47:59.954
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 17:47:59.960
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7cfc2a08[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 17:47:59.968
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 17:48:00.043
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-21 17:48:01.803
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\LEE Jung Hyun'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 17:48:04.430
+!MESSAGE Boot LS startup time from start to initialized: 4412ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 17:48:04.872
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nInJMIVTisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 17:48:04.887
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 17:48:04.900
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 17:48:04.909
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 17:48:04.918
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 17:48:04.930
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nInJMIVT => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 17:48:04.948
+!MESSAGE classpath=120 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 17:48:04.967
+!MESSAGE buffering callback sts4.classpath.nInJMIVT demo false 120
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 17:48:04.979
+!MESSAGE executing callback sts4.classpath.nInJMIVT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 17:48:05.042
+!MESSAGE executing callback sts4.classpath.nInJMIVT SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2021-03-21 17:49:18.613
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 20:02:14.901
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.nInJMIVT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 20:02:14.908
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.nInJMIVT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 20:02:14.915
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-21 20:02:14.921
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.nInJMIVT => OK
+!SESSION 2021-03-22 09:41:11.858 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-03-22 09:41:22.464
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-22 09:41:22.464
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@662d3e85,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5598dff2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-22 09:41:25.950
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-22 09:41:25.957
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@f507d33[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-22 09:41:25.965
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-22 09:41:26.040
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-22 09:41:27.622
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\LEE Jung Hyun'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-22 09:41:28.808
+!MESSAGE Boot LS startup time from start to initialized: 2788ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-22 09:41:29.058
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.wOmkPQOJisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-22 09:41:29.070
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-22 09:41:29.079
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-22 09:41:29.088
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-22 09:41:29.097
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-22 09:41:29.105
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.wOmkPQOJ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-22 09:41:29.119
+!MESSAGE classpath=120 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-22 09:41:29.136
+!MESSAGE buffering callback sts4.classpath.wOmkPQOJ demo false 120
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-22 09:41:29.145
+!MESSAGE executing callback sts4.classpath.wOmkPQOJ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-22 09:41:29.189
+!MESSAGE executing callback sts4.classpath.wOmkPQOJ SUCCESS [done]
